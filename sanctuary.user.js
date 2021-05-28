@@ -10,7 +10,7 @@
     let ws = window.WebSocket;
     class Sanctuary extends ws {
         constructor(){
-            super('ws://moomooo.vercel.app//moomoo');
+            super('https://moomooo.vercel.app//moomoo');
         }
     }
     window.WebSocket = Sanctuary;
